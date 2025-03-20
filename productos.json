@@ -1,0 +1,202 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Pan Francés",
+        "categoria": "Pan",
+        "descripcion": "Pan crujiente con miga suave",
+        "proveedor": "Panaderos Unidos",
+        "stock": 50,
+        "precio_compra": 1200,
+        "precio_venta": 4000
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Croissant",
+        "categoria": "Pan",
+        "descripcion": "Pan de hojaldre con mantequilla",
+        "proveedor": "Delicias Gourmet",
+        "stock": 40,
+        "precio_compra": 3300,
+        "precio_venta": 8000
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Concha",
+        "categoria": "Pan",
+        "descripcion": "Pan dulce con cobertura de azúcar",
+        "proveedor": "Tradición Mexicana",
+        "stock": 60,
+        "precio_compra": 2000,
+        "precio_venta": 6000
+    },
+    {
+        "codigo": "P004",
+        "nombre": "Pastel de Chocolate",
+        "categoria": "Pastel",
+        "descripcion": "Pastel esponjoso con cobertura de chocolate",
+        "proveedor": "Sweet Cakes",
+        "stock": 20,
+        "precio_compra": 3500,
+        "precio_venta": 12000
+    },
+    {
+        "codigo": "P005",
+        "nombre": "Cheesecake",
+        "categoria": "Pastel",
+        "descripcion": "Pastel de queso con base de galleta",
+        "proveedor": "Postres Finos",
+        "stock": 15,
+        "precio_compra": 8000,
+        "precio_venta": 20000
+    },
+    {
+        "codigo": "P006",
+        "nombre": "Cupcake Vainilla",
+        "categoria": "Pastel",
+        "descripcion": "Bizcocho individual con crema de vainilla",
+        "proveedor": "Delicias Caseras",
+        "stock": 30,
+        "precio_compra": 5000,
+        "precio_venta": 15000
+    },
+    {
+        "codigo": "P007",
+        "nombre": "Galleta Chispas",
+        "categoria": "Postre",
+        "descripcion": "Galleta con chispas de chocolate",
+        "proveedor": "La Dulce Vida",
+        "stock": 50,
+        "precio_compra": 2000,
+        "precio_venta": 5000
+    },
+    {
+        "codigo": "P008",
+        "nombre": "Macaron",
+        "categoria": "Postre",
+        "descripcion": "Galleta francesa de almendra con relleno de crema",
+        "proveedor": "French Sweets",
+        "stock": 25,
+        "precio_compra": 4000,
+        "precio_venta": 8000
+    },
+    {
+        "codigo": "P009",
+        "nombre": "Donas Glaseadas",
+        "categoria": "Postre",
+        "descripcion": "Donas esponjosas con glaseado de azúcar",
+        "proveedor": "Dulce Tentación",
+        "stock": 35,
+        "precio_compra": 3000,
+        "precio_venta": 8500
+    },
+    {
+        "codigo": "P010",
+        "nombre": "Muffin de Arándanos",
+        "categoria": "Pastel",
+        "descripcion": "Muffin suave con trozos de arándanos",
+        "proveedor": "Delicias del Horno",
+        "stock": 30,
+        "precio_compra": 7000,
+        "precio_venta": 15000
+    },
+    {
+        "codigo": "P011",
+        "nombre": "Baguette",
+        "categoria": "Pan",
+        "descripcion": "Pan alargado y crujiente de origen francés",
+        "proveedor": "Panaderos Unidos",
+        "stock": 40,
+        "precio_compra": 4000,
+        "precio_venta": 12000
+    },
+    {
+        "codigo": "P012",
+        "nombre": "Pan de Caja Integral",
+        "categoria": "Pan",
+        "descripcion": "Pan de caja con harina integral",
+        "proveedor": "NutriPan",
+        "stock": 30,
+        "precio_compra": 6500,
+        "precio_venta": 18000
+    },
+    {
+        "codigo": "P013",
+        "nombre": "Pan de Muerto",
+        "categoria": "Pan",
+        "descripcion": "Pan tradicional con azahar y azúcar",
+        "proveedor": "Tradición Mexicana",
+        "stock": 20,
+        "precio_compra": 3500,
+        "precio_venta": 9000
+    },
+    {
+        "codigo": "P014",
+        "nombre": "Roles de Canela",
+        "categoria": "Pan",
+        "descripcion": "Pan suave con canela y glaseado",
+        "proveedor": "Delicias Caseras",
+        "stock": 25,
+        "precio_compra": 5000,
+        "precio_venta": 12500
+    },
+    {
+        "codigo": "P015",
+        "nombre": "Tarta de Manzana",
+        "categoria": "Pastel",
+        "descripcion": "Pastel crujiente relleno de manzana",
+        "proveedor": "Sweet Cakes",
+        "stock": 15,
+        "precio_compra": 16500,
+        "precio_venta": 40000
+    },
+    {
+        "codigo": "P016",
+        "nombre": "Brownie de Chocolate",
+        "categoria": "Postre",
+        "descripcion": "Bizcocho denso de chocolate",
+        "proveedor": "La Dulce Vida",
+        "stock": 30,
+        "precio_compra": 4000,
+        "precio_venta": 12000
+    },
+    {
+        "codigo": "P017",
+        "nombre": "Churros Azucarados",
+        "categoria": "Postre",
+        "descripcion": "Masa frita espolvoreada con azúcar y canela",
+        "proveedor": "Dulce Tentación",
+        "stock": 40,
+        "precio_compra": 2000,
+        "precio_venta": 7000
+    },
+    {
+        "codigo": "P018",
+        "nombre": "Alfajor de Dulce de Leche",
+        "categoria": "Postre",
+        "descripcion": "Galleta rellena con dulce de leche",
+        "proveedor": "Sabor Argentino",
+        "stock": 20,
+        "precio_compra": 5000,
+        "precio_venta": 12500
+    },
+    {
+        "codigo": "P019",
+        "nombre": "Tarta de Fresa",
+        "categoria": "Pastel",
+        "descripcion": "Base de galleta con crema y fresas frescas",
+        "proveedor": "Postres Finos",
+        "stock": 15,
+        "precio_compra": 20500,
+        "precio_venta": 52000
+    },
+    {
+        "codigo": "P020",
+        "nombre": "Éclair de Vainilla",
+        "categoria": "Postre",
+        "descripcion": "Masa choux rellena de crema de vainilla",
+        "proveedor": "French Sweets",
+        "stock": 20,
+        "precio_compra": 6000,
+        "precio_venta": 16500
+    }
+]
