@@ -21,7 +21,7 @@ def formulario_agregar_producto():                                              
     else:
         print("El codigo del producto ya existe")
 
-def tabla_productos():
+def tabla_productos():                                                                      #Funcion que retorna la tabla de productos           
     datos = encontrar_todos()
     datos_modificados = []
     for diccionario in datos:
@@ -31,7 +31,7 @@ def tabla_productos():
         datos_modificados.append(diccionario)
     print(tabulate(datos_modificados, headers="keys", tablefmt="grid", numalign="center", showindex="always"))
 
-def tabla_productos_por_categoria(categoria):
+def tabla_productos_por_categoria(categoria):                                               #Funcion retorna la tabla de productos por categoria
     datos = encontrar_todos()  
     datos_modificados = []
     categoria = categoria.lower()  
@@ -45,7 +45,7 @@ def tabla_productos_por_categoria(categoria):
     else:
         print(f"No se encontraron productos en la categoria '{categoria}'")
 
-def buscar_producto_por_nombre(nombre):
+def buscar_producto_por_nombre(nombre):                                                     #Funcion retorna lista de productos por nombre 
     datos = encontrar_todos()
     productos_encontrados = list(filter(lambda producto: nombre.lower() in producto["nombre"].lower(), datos))
     
@@ -54,7 +54,7 @@ def buscar_producto_por_nombre(nombre):
     else:
         print(f"No se encontraron productos con el nombre '{nombre}'")
     
-def buscar_producto_por_codigo(codigo_producto):
+def buscar_producto_por_codigo(codigo_producto):                                            #Funcion retorna lista de productos por codigo
     datos = encontrar_todos()  
     producto = next((p for p in datos if p['codigo'] == codigo_producto), None)
     if producto:
@@ -63,7 +63,7 @@ def buscar_producto_por_codigo(codigo_producto):
     else:
         print(f"No se encontro un producto con el codigo '{codigo_producto}'")
 
-def actualizar_inventario():
+def actualizar_inventario():                                                                #Funcion para actualizar el inventario
     codigo_producto = input("Ingrese el codigo del producto para actualizar: ")
     cantidad_a_actualizar = int(input("Ingrese la cantidad a agregar: "))
     datos = encontrar_todos()
@@ -79,7 +79,7 @@ def actualizar_inventario():
     else:
         print(f"No se encontro un producto con el codigo '{codigo_producto}'")
 
-def eliminar_producto_por_codigo(codigo_producto):
+def eliminar_producto_por_codigo(codigo_producto):                                          #Funcion que elimina producto por codigo
     datos = encontrar_todos()
     producto = next((p for p in datos if p['codigo'] == codigo_producto), None)
     if producto:
@@ -88,4 +88,3 @@ def eliminar_producto_por_codigo(codigo_producto):
         print(f"Producto con codigo '{codigo_producto}' eliminado correctamente")
     else:
         print(f"No se encontro un producto con el codigo '{codigo_producto}'")
-
