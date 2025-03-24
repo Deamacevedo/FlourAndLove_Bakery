@@ -34,7 +34,7 @@ menu_inventario_productos = """
 1.Ver lista productos.
 2.Ver lista productos agrupados por categoria.
 3.Actualizar inventario de un producto.
-4.Agregar un nuevo producto.
+4.Agregar o eliminar un producto del inventario.
 5.Buscar producto por nombre.
 6.Buscas producto por codigo.
 7.Regresar al menu principal.
@@ -46,13 +46,31 @@ menu_administrar_pedidos = """
 1.Editar pedido.
 2.Eliminar pedido.
 3.Ver historial de pedidos.
-4.Regresar al menu principal.
+4.Ver pedido por codigo.
+5.Regresar al menu principal.
 
 """
 
-actualizar_inventario_producto = """
+menu_actualizar_inventario_producto = """
 𝐼𝑁𝑉𝐸𝑁𝑇𝐴𝑅𝐼𝑂 𝑃𝑅𝑂𝐷𝑈𝐶𝑇𝑂
 1.Añadir producto.
 2.Descontar producto.
 3.Regresar al menu inventario.
+
+"""
+
+menu_editar_pedido = """
+𝐸𝐷𝐼𝑇𝐴𝑅 𝑃𝐸𝐷𝐼𝐷𝑂𝑆
+1.Remover un producto del pedido.
+2.Editar el stock de un producto en el pedido.
+3.Regresar al menu administrar pedidos.
+
+"""
+
+menu_editar_productos ="""
+𝐸𝐷𝐼𝑇𝐴𝑅 𝑃𝑅𝑂𝐷𝑈𝐶𝑇𝑂𝑆 𝐷𝐸𝐿 𝐼𝑁𝑉𝐸𝑁𝑇𝐴𝑅𝐼𝑂
+1.Agregar un producto nuevo
+2.Eliminar un producto del inventario
+3.Regresar al menu inventario.
+
 """

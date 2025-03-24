@@ -1,11 +1,11 @@
 [
     {
         "codigo": "P001",
-        "nombre": "Pan Francés",
+        "nombre": "Pan Franc\u00e9s",
         "categoria": "Pan",
         "descripcion": "Pan crujiente con miga suave",
         "proveedor": "Panaderos Unidos",
-        "stock": 50,
+        "stock": 40,
         "precio_compra": 1200,
         "precio_venta": 4000
     },
@@ -23,9 +23,9 @@
         "codigo": "P003",
         "nombre": "Concha",
         "categoria": "Pan",
-        "descripcion": "Pan dulce con cobertura de azúcar",
-        "proveedor": "Tradición Mexicana",
-        "stock": 60,
+        "descripcion": "Pan dulce con cobertura de az\u00facar",
+        "proveedor": "Tradici\u00f3n Mexicana",
+        "stock": 55,
         "precio_compra": 2000,
         "precio_venta": 6000
     },
@@ -45,7 +45,7 @@
         "categoria": "Pastel",
         "descripcion": "Pastel de queso con base de galleta",
         "proveedor": "Postres Finos",
-        "stock": 15,
+        "stock": 13,
         "precio_compra": 8000,
         "precio_venta": 20000
     },
@@ -65,7 +65,7 @@
         "categoria": "Postre",
         "descripcion": "Galleta con chispas de chocolate",
         "proveedor": "La Dulce Vida",
-        "stock": 50,
+        "stock": 45,
         "precio_compra": 2000,
         "precio_venta": 5000
     },
@@ -83,19 +83,19 @@
         "codigo": "P009",
         "nombre": "Donas Glaseadas",
         "categoria": "Postre",
-        "descripcion": "Donas esponjosas con glaseado de azúcar",
-        "proveedor": "Dulce Tentación",
+        "descripcion": "Donas esponjosas con glaseado de az\u00facar",
+        "proveedor": "Dulce Tentaci\u00f3n",
         "stock": 35,
         "precio_compra": 3000,
         "precio_venta": 8500
     },
     {
         "codigo": "P010",
-        "nombre": "Muffin de Arándanos",
+        "nombre": "Muffin de Ar\u00e1ndanos",
         "categoria": "Pastel",
-        "descripcion": "Muffin suave con trozos de arándanos",
+        "descripcion": "Muffin suave con trozos de ar\u00e1ndanos",
         "proveedor": "Delicias del Horno",
-        "stock": 30,
+        "stock": 28,
         "precio_compra": 7000,
         "precio_venta": 15000
     },
@@ -103,9 +103,9 @@
         "codigo": "P011",
         "nombre": "Baguette",
         "categoria": "Pan",
-        "descripcion": "Pan alargado y crujiente de origen francés",
+        "descripcion": "Pan alargado y crujiente de origen franc\u00e9s",
         "proveedor": "Panaderos Unidos",
-        "stock": 40,
+        "stock": 30,
         "precio_compra": 4000,
         "precio_venta": 12000
     },
@@ -115,7 +115,7 @@
         "categoria": "Pan",
         "descripcion": "Pan de caja con harina integral",
         "proveedor": "NutriPan",
-        "stock": 30,
+        "stock": 28,
         "precio_compra": 6500,
         "precio_venta": 18000
     },
@@ -123,8 +123,8 @@
         "codigo": "P013",
         "nombre": "Pan de Muerto",
         "categoria": "Pan",
-        "descripcion": "Pan tradicional con azahar y azúcar",
-        "proveedor": "Tradición Mexicana",
+        "descripcion": "Pan tradicional con azahar y az\u00facar",
+        "proveedor": "Tradici\u00f3n Mexicana",
         "stock": 20,
         "precio_compra": 3500,
         "precio_venta": 9000
@@ -135,7 +135,7 @@
         "categoria": "Pan",
         "descripcion": "Pan suave con canela y glaseado",
         "proveedor": "Delicias Caseras",
-        "stock": 25,
+        "stock": 23,
         "precio_compra": 5000,
         "precio_venta": 12500
     },
@@ -163,9 +163,9 @@
         "codigo": "P017",
         "nombre": "Churros Azucarados",
         "categoria": "Postre",
-        "descripcion": "Masa frita espolvoreada con azúcar y canela",
-        "proveedor": "Dulce Tentación",
-        "stock": 40,
+        "descripcion": "Masa frita espolvoreada con az\u00facar y canela",
+        "proveedor": "Dulce Tentaci\u00f3n",
+        "stock": 37,
         "precio_compra": 2000,
         "precio_venta": 7000
     },
@@ -175,7 +175,7 @@
         "categoria": "Postre",
         "descripcion": "Galleta rellena con dulce de leche",
         "proveedor": "Sabor Argentino",
-        "stock": 20,
+        "stock": 23,
         "precio_compra": 5000,
         "precio_venta": 12500
     },
@@ -185,17 +185,17 @@
         "categoria": "Pastel",
         "descripcion": "Base de galleta con crema y fresas frescas",
         "proveedor": "Postres Finos",
-        "stock": 15,
+        "stock": 20,
         "precio_compra": 20500,
         "precio_venta": 52000
     },
     {
         "codigo": "P020",
-        "nombre": "Éclair de Vainilla",
+        "nombre": "\u00c9clair de Vainilla",
         "categoria": "Postre",
         "descripcion": "Masa choux rellena de crema de vainilla",
         "proveedor": "French Sweets",
-        "stock": 20,
+        "stock": 18,
         "precio_compra": 6000,
         "precio_venta": 16500
     }
