@@ -1,4 +1,4 @@
-Flour and love Bakery Management System
+**Flour and love Bakery Management System**
 
 ## Description
 
@@ -52,6 +52,16 @@ The bakery "**Flour and Love Bakery**" faces challenges related to inventory man
 - JSON library for data handling
 - Tabulate library for tables control
 - GitHub for version control
+
+### Installation
+To install the `tabulate` library, follow these steps:
+
+#### Using pip 
+```bash
+pip install tabulate
+```
+
+
 
 ## Best Practices
 
